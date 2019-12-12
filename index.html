@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en" >
 <head>
-    <script src="src/js/animation.js"></script>
+  <meta charset="UTF-8">
+  <title>Particle Collider</title>
+  <link rel="stylesheet" href="../Multi-Agent-Web-System//src/css/style.css">
+
 </head>
-
 <body>
+<!-- partial:index.partial.html -->
+<canvas id=c style="z-index: 1;"></canvas>
+<!-- partial -->
+  <script  src="../Multi-Agent-Web-System//src/js/animation.js"></script>
+<div class="change-figure" style="z-index: 2; position: absolute;" >
+    <label for="circle">Circle</label>
+    <input class="radio" type="radio" name="figure" value="0" id="circle" checked>
+    <label for="rect">Rect</label>
+    <input class="radio" type="radio" name="figure" value="1" id="rect">
+</div>
 </body>
-
 </html>
