@@ -1,0 +1,33 @@
+{
+  "name": "multi-agent-web-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomanPanfilenko/Multi-Agent-Web-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomanPanfilenko/Multi-Agent-Web-System/issues"
+  },
+  "homepage": "https://github.com/RomanPanfilenko/Multi-Agent-Web-System#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "npm-install-webpack-plugin": "^4.0.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0"
+  },
+  "keywords": [],
+  "description": ""
+}
