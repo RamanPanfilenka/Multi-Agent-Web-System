@@ -72,7 +72,7 @@ function GetFigure(currentChoise, x, y, potencialRadius){
             return new Circle(x,y,potencialRadius-25);
             break;
         case "1":
-            return new Rect(x,y,potencialRadius - 46);
+            return new Rect(x,y,potencialRadius - 43);
             break;
     }
 }
